@@ -34,7 +34,7 @@
     font-size: 35px;
     color: #000F38;
     margin: 10px 0;
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 .about p {
     color: #676767;
