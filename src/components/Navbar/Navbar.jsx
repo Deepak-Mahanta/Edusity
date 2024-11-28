@@ -13,7 +13,7 @@ const Navbar = () => {
       window.scrollY > 50 ? setsticky(true) : setsticky(false);
     });
   }, []);
-   
+
   const [mobileMenu, setMobileMenu] = useState(false)
   const toggleMenu = () =>{
     mobileMenu? setMobileMenu(false) : setMobileMenu(true);
